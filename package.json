@@ -1,5 +1,5 @@
 {
-  "name": "remove-console-logs",
+  "name": "remove-console-logss",
   "version": "1.0.0",
   "description": "CLI tool that removes all console.log, console.error, console.warn from JS/TS files in a folder.",
   "keywords": [
@@ -27,13 +27,17 @@
     "build",
     "README.md"
   ],
+   "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saarang2003/remove-console-logs.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "node index.js",
     "build": "rimraf build && tsc"
   },
   "bin": {
-    "clean-console": "./index.js"
+    "clean-console": "./build/index.js"
   },
   "dependencies": {
     "commander": "^14.0.0",
