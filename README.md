@@ -25,13 +25,13 @@ A zero-dependency Node.js CLI tool that cleans all `console.*` statements from y
 Use npx:
 
 ```bash
-npx remove-console-logs@latest
+npx remove-console-logss@latest
 ```
 
 Or install globally:
 
 ```bash
-npm install -g remove-console-logs
+npm install -g remove-console-logss
 ```
 
 ---
@@ -40,19 +40,19 @@ npm install -g remove-console-logs
 
 ```bash
 # Basic usage (process current directory)
-remove-console-logs
+remove-console-logss
 
 # Target specific directory
-remove-console-logs ./src
+remove-console-logss ./src
 
 # Dry run (preview changes without modifying files)
-remove-console-logs --dry-run
+remove-console-logss --dry-run
 
 # Ignore specific paths
-remove-console-logs --ignore "**/test/**,**/mocks/**"
+remove-console-logss --ignore "**/test/**,**/mocks/**"
 
 # Comment out instead of removing
-remove-console-logs --preserve
+remove-console-logss --preserve
 ```
 
 ---
