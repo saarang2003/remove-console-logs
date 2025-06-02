@@ -1,4 +1,0 @@
-console.log("this is log 1);
-a+b = 3;
-console.log( 4 = 5)
-what is this about ?

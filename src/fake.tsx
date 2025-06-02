@@ -22,7 +22,8 @@ const App: React.FC = () => {
         const data = await response.json();
         console.timeEnd("Fetch Time");
         console.log("Fetched data:", data);
-        setUser(data);
+        // Type assertion for fetched data
+        setUser(data as User);
       } catch (error) {
         console.error("Fetch error:", error);
       }
@@ -34,7 +35,6 @@ const App: React.FC = () => {
 
   const handleClick = () => {
     console.assert(user !== null, "User must be defined before clicking");
-    alert(`Hello, ${user?.name}`);
     console.count("Button Clicked");
   };
 
