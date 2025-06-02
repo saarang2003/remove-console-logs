@@ -1,6 +1,6 @@
 {
   "name": "remove-console-logss",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CLI tool that removes all console.log, console.error, console.warn from JS/TS files in a folder.",
   "keywords": [
     "react",
