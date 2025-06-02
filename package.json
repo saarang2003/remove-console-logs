@@ -1,0 +1,28 @@
+{
+  "name": "remove-console-logs",
+  "version": "1.0.0",
+  "description": "CLI tool that removes all console.log, console.error, console.warn from JS/TS files in a folder.",
+  "keywords": [
+    "react",
+    "cli",
+    "typescript",
+    "workflow",
+    "nextjs",
+    "nodejs"
+  ],
+  "homepage": "https://github.com/saarang2003/remove-console-logs#readme",
+  "bugs": {
+    "url": "https://github.com/saarang2003/remove-console-logs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saarang2003/remove-console-logs.git"
+  },
+  "license": "ISC",
+  "author": "sarang",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
